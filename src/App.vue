@@ -24,7 +24,7 @@ const toggleSidebar = () => {
             v-if="!isSidebarOpen"
             src="@/assets/shared/icon-hamburger.svg"
             alt="list"
-            class="w-8 h-8 z-40 absolute  lg:hidden md:hidden sm:block sm:right-8 sm:mt-2 cursor-pointer"
+            class="w-8 h-8 z-40 absolute  lg:hidden md:hidden sm:block sm:right-8 sm:mt-6 cursor-pointer"
             @click="toggleSidebar"
           />
 
